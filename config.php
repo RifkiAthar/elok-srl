@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'learnmoodledb';
-$CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbhost    = 'us-cdbr-east-04.cleardb.com';
+$CFG->dbname    = 'heroku_85fbe23ad02fdc2';
+$CFG->dbuser    = 'b30ac77ad44c0c';
+$CFG->dbpass    = 'd5701e4c';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/moodleLearn';
-$CFG->dataroot  = 'E:\\xampp\\learnmoodledata';
+$CFG->wwwroot   = 'http://elok-srl.herokuapp.com';
+$CFG->dataroot  = '/var/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
